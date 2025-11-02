@@ -1,8 +1,10 @@
-rules:
-  - IP-CIDR,13.112.0.0/14,Proxy,no-resolve
-  - DOMAIN-SUFFIX,4gtv.tv,Proxy
-  - DOMAIN-SUFFIX,hinet.net,Proxy
-  - DOMAIN-SUFFIX,livednow.com,Proxy
-  - DOMAIN-SUFFIX,ofiii.com,Proxy
-
-# Proxy 可以改成你自己的策略名
+# NAME: 4GTV
+# AUTHOR: Chalin
+# REPO: https://github.com/skymoonchow/clash_full
+# UPDATED: 2025-11-02 09:17:51
+payload:
+  - IP-CIDR,13.112.0.0/14,no-resolve
+  - DOMAIN-SUFFIX,4gtv.tv
+  - DOMAIN-SUFFIX,hinet.net
+  - DOMAIN-SUFFIX,livednow.com
+  - DOMAIN-SUFFIX,ofiii.com
