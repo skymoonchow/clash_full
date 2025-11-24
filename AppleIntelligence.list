@@ -1,1 +1,16 @@
-####
+# NAME: AppleIntelligenc
+# AUTHOR: Chalin
+# REPO: https://github.com/skymoonchow/clash_full
+# UPDATED: 2025-11-02 14:06:28
+# DOMAIN: 10
+# DOMAIN-KEYWORD: 5
+# DOMAIN-SUFFIX: 1
+# IP-CIDR: 10
+# PROCESS-NAME: 0
+# TOTAL:6 # behavior: "classical"
+DOMAIN,apple-relay.apple.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
